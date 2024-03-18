@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  background-color: black;
+  font-family: "Courier Prime", monospace;
+  font-weight: lighter;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40pt;
+  color: white;
+}
+
+#blankscreen {
+  background-image: url("../img/blankscreen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#center {
+  margin-top: 25%;
+}
+
+#level1 {
+  background-image: url("../img/level1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#level2 {
+  background-image: url("../img/level2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#level3 {
+  background-image: url("../img/level3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#level4 {
+  background-image: url("../img/level4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#level5 {
+  background-image: url("../img/level5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#level6 {
+  background-image: url("../img/level6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+.resizer {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  opacity: 0;
+  resize: both;
+}
+
+.wrap {
+  width: min-content;
+  position: relative;
+}
+.x {
+  pointer-events: none;
+  position: absolute;
+  bottom: -10px;
+  left: calc(100% - 20px);
+  line-height: 0;
+  color: red;
+  font-size: 50px;
+}
+
+a:link {
+  color: white;
+  font-size: 12pt;
+  z-index: 1;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+#reddot1 {
+  position: absolute;
+  right: 690px;
+  top: 135px;
+  z-index: 2;
+}
+
+#reddot1header {
+  padding: 10px;
+  cursor: move;
+}
+#reddot2 {
+  position: absolute;
+  left: 340px;
+  top: 155px;
+  z-index: 2;
+}
+
+#reddot2header {
+  padding: 10px;
+  cursor: move;
+}
+#reddot3 {
+  position: absolute;
+  left: 300px;
+  top: 155px;
+  z-index: 2;
+}
+
+#reddot3header {
+  padding: 10px;
+  cursor: move;
+}
+#reddot4 {
+  position: absolute;
+  left: 300px;
+  bottom: 45px;
+  z-index: 2;
+}
+
+#reddot4header {
+  padding: 10px;
+  cursor: move;
+}
+#reddot5 {
+  position: absolute;
+  left: 250px;
+  bottom: 440px;
+  z-index: 2;
+}
+
+#reddot5header {
+  padding: 10px;
+  cursor: move;
+}
+#reddot6 {
+  position: absolute;
+  left: 660px;
+  bottom: 420px;
+  z-index: 2;
+}
+
+#reddot6header {
+  padding: 10px;
+  cursor: move;
+}
+.levellink1 {
+  display: none;
+  font-size: 12pt;
+  position: absolute;
+  right: 670px;
+  bottom: 120px;
+}
+
+.hide1 {
+  font-size: 12pt;
+  position: absolute;
+  right: 670px;
+  bottom: 120px;
+  width: 100px;
+  height: 100px;
+}
+
+.hide1:hover + .levellink1 {
+  display: block;
+  color: red;
+}
+.levellink2 {
+  display: none;
+  font-size: 12pt;
+  position: absolute;
+  right: 310px;
+  bottom: 250px;
+}
+
+.hide2 {
+  font-size: 12pt;
+  position: absolute;
+  right: 310px;
+  bottom: 250px;
+  width: 100px;
+  height: 100px;
+}
+
+.hide2:hover + .levellink2 {
+  display: block;
+  color: red;
+}
+
+.levellink3 {
+  display: none;
+  font-size: 12pt;
+  position: absolute;
+  right: 195px;
+  bottom: 150px;
+}
+
+.hide3 {
+  font-size: 12pt;
+  position: absolute;
+  right: 195px;
+  bottom: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+.hide3:hover + .levellink3 {
+  display: block;
+  color: red;
+}
+
+.levellink4 {
+  display: none;
+  font-size: 12pt;
+  position: absolute;
+  right: 255px;
+  top: 220px;
+}
+
+.hide4 {
+  font-size: 12pt;
+  position: absolute;
+  right: 255px;
+  top: 220px;
+  width: 100px;
+  height: 100px;
+}
+
+.hide4:hover + .levellink4 {
+  display: block;
+  color: red;
+}
+
+.levellink5 {
+  display: none;
+  font-size: 12pt;
+  position: absolute;
+  right: 200px;
+  top: 380px;
+}
+
+.hide5 {
+  font-size: 12pt;
+  position: absolute;
+  right: 200px;
+  top: 380px;
+  width: 100px;
+  height: 100px;
+}
+
+.hide5:hover + .levellink5 {
+  display: block;
+  color: red;
+}
+
+#exorcist {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  max-width: 100%;
+  animation: cssAnimation 0s 8s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+
+#finish {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: cssAnimation 0s 15s forwards;
+  visibility: hidden;
+}
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+#disney {
+  position: absolute;
+  margin-left: 27%;
+  margin-top: 3%;
+  width: 46%;
+  z-index: 1;
+}
+
+#tv {
+  margin-top: -5%;
+}
