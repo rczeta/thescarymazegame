@@ -95,8 +95,8 @@ a:hover {
 }
 #reddot1 {
   position: absolute;
-  right: 690px;
-  top: 135px;
+  right: 43.125em;
+  top: 8.4375em;
   z-index: 2;
 }
 
@@ -306,4 +306,8 @@ a:hover {
 
 #tv {
   margin-top: -5%;
+}
+
+#myAudio {
+  display: none;
 }
