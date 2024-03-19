@@ -95,8 +95,8 @@ a:hover {
 }
 #reddot1 {
   position: absolute;
-  right: 43.125em;
-  top: 8.4375em;
+  right: 47.75%;
+  top: 16%;
   z-index: 2;
 }
 
@@ -106,8 +106,8 @@ a:hover {
 }
 #reddot2 {
   position: absolute;
-  left: 340px;
-  top: 155px;
+  left: 23.5%;
+  top: 18.5%;
   z-index: 2;
 }
 
@@ -117,8 +117,8 @@ a:hover {
 }
 #reddot3 {
   position: absolute;
-  left: 300px;
-  top: 155px;
+  left: 20.5%;
+  top: 18.5%;
   z-index: 2;
 }
 
@@ -128,8 +128,8 @@ a:hover {
 }
 #reddot4 {
   position: absolute;
-  left: 300px;
-  bottom: 45px;
+  left: 21%;
+  bottom: 8.5%;
   z-index: 2;
 }
 
@@ -139,8 +139,8 @@ a:hover {
 }
 #reddot5 {
   position: absolute;
-  left: 250px;
-  bottom: 440px;
+  left: 17.5%;
+  bottom: 53.5%;
   z-index: 2;
 }
 
@@ -150,8 +150,8 @@ a:hover {
 }
 #reddot6 {
   position: absolute;
-  left: 660px;
-  bottom: 420px;
+  left: 45.75%;
+  bottom: 51.5%;
   z-index: 2;
 }
 
