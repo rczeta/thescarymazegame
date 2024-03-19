@@ -96,7 +96,7 @@ a:hover {
 #reddot1 {
   position: absolute;
   right: 47.75%;
-  top: 16%;
+  top: 16.5%;
   z-index: 2;
 }
 
@@ -107,7 +107,7 @@ a:hover {
 #reddot2 {
   position: absolute;
   left: 23.5%;
-  top: 18.5%;
+  top: 19.5%;
   z-index: 2;
 }
 
@@ -118,7 +118,7 @@ a:hover {
 #reddot3 {
   position: absolute;
   left: 20.5%;
-  top: 18.5%;
+  top: 19%;
   z-index: 2;
 }
 
@@ -128,8 +128,8 @@ a:hover {
 }
 #reddot4 {
   position: absolute;
-  left: 21%;
-  bottom: 8.5%;
+  left: 20.9%;
+  bottom: 4.5%;
   z-index: 2;
 }
 
@@ -139,8 +139,8 @@ a:hover {
 }
 #reddot5 {
   position: absolute;
-  left: 17.5%;
-  bottom: 53.5%;
+  left: 17.4%;
+  bottom: 52.75%;
   z-index: 2;
 }
 
@@ -151,7 +151,7 @@ a:hover {
 #reddot6 {
   position: absolute;
   left: 45.75%;
-  bottom: 51.5%;
+  bottom: 51%;
   z-index: 2;
 }
 
@@ -163,15 +163,15 @@ a:hover {
   display: none;
   font-size: 12pt;
   position: absolute;
-  right: 670px;
-  bottom: 120px;
+  right: 46.5%;
+  bottom: 13.5%;
 }
 
 .hide1 {
   font-size: 12pt;
   position: absolute;
-  right: 670px;
-  bottom: 120px;
+  right: 46.5%;
+  bottom: 13.5%;
   width: 100px;
   height: 100px;
 }
@@ -184,15 +184,15 @@ a:hover {
   display: none;
   font-size: 12pt;
   position: absolute;
-  right: 310px;
-  bottom: 250px;
+  right: 21.5%;
+  bottom: 29%;
 }
 
 .hide2 {
   font-size: 12pt;
   position: absolute;
-  right: 310px;
-  bottom: 250px;
+  right: 21.5%;
+  bottom: 29%;
   width: 100px;
   height: 100px;
 }
@@ -206,15 +206,15 @@ a:hover {
   display: none;
   font-size: 12pt;
   position: absolute;
-  right: 195px;
-  bottom: 150px;
+  right: 13.5%;
+  bottom: 17.75%;
 }
 
 .hide3 {
   font-size: 12pt;
   position: absolute;
-  right: 195px;
-  bottom: 150px;
+  right: 13.5%;
+  bottom: 17.75%;
   width: 100px;
   height: 100px;
 }
@@ -228,15 +228,15 @@ a:hover {
   display: none;
   font-size: 12pt;
   position: absolute;
-  right: 255px;
-  top: 220px;
+  right: 17.75%;
+  top: 27.5%;
 }
 
 .hide4 {
   font-size: 12pt;
   position: absolute;
-  right: 255px;
-  top: 220px;
+  right: 17.75%;
+  top: 27.5%;
   width: 100px;
   height: 100px;
 }
@@ -250,15 +250,15 @@ a:hover {
   display: none;
   font-size: 12pt;
   position: absolute;
-  right: 200px;
-  top: 380px;
+  right: 13.75%;
+  top: 47%;
 }
 
 .hide5 {
   font-size: 12pt;
   position: absolute;
-  right: 200px;
-  top: 380px;
+  right: 13.75%;
+  top: 47%;
   width: 100px;
   height: 100px;
 }
