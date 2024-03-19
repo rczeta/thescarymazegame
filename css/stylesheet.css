@@ -311,3 +311,15 @@ a:hover {
 #myAudio {
   display: none;
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 100%;
+  }
+  img {
+    max-height: 640px;
+  }
+  #blankscreen {
+    background-size: cover;
+  }
+}
